@@ -1,0 +1,122 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px 10px 100px; 
+}
+
+.menu{
+    padding-top: 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+}
+
+.search{
+    padding-left: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+.logo{
+    width: 150px;
+    height: auto;
+}
+
+.about-us{
+    background-image: url(./images/dark.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: darkblue;
+    background-position:center;
+    width: 100%;
+}
+
+.ash{
+    color: white;
+    text-align: center;
+    padding: 180px 0;
+}
+
+.Why-Us{
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.headWU p{
+    padding: 0 240px 30px 240px;
+}
+
+.block{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.grow-with-us{
+    background-image: url(./images/car.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: darkred;
+    background-position:center;
+}
+
+.innerGWS{
+    text-align: center;
+    padding: 180px 0;
+    color: white;
+}
+
+.innerGWS h1{
+    font-size: 35px;
+}
+
+.btn{
+    background-color:#0040ff;
+    font-size: 20px;
+    padding: 20px 35px;
+    border-radius: 40px;
+    border: 0;
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #0040ff;
+}
+
+.main-footer{
+    padding: 0 60px 30px 60px;
+}
+
+.cs{
+    display: inline-block;
+    width: 20%;
+    padding: 60px 30px 50px 15px;
+}
+
+.nl{
+    display: inline-block;
+    width: 50%;
+}
+
+#email{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+}
